@@ -1,4 +1,4 @@
-# LiSTNR Technical Assessment
+# VRIZE Mobile App Automation using Appium with Java
 
 # Appium-Java-Mobile-Allure-TestNG-Maven
 A test automation framework for Mobile applications.
