@@ -6,6 +6,7 @@ A test automation framework for Mobile applications.
 ## Author: Gaurav Purwar
 ## Date:30 Sep 2024
 
+
 #Introduction
 The purpose of this document is to demonstrate what is covered as part of LiSTNR Mobile Apps in iOS and Android using:
 1. Core Java
