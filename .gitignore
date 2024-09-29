@@ -1,0 +1,25 @@
+# macOS files
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+
+# Log files
+*.log
+
+# Build directories
+/build/
+/dist/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Java class files
+*.class
+
+# Other common files to ignore
+.env
+.env.local
+Thumbs.db
+*.tmp

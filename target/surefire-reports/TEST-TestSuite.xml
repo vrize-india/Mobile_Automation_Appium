@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="43.852" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="22.0.2"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/gaurav_purwar/Documents/Vrize/MobileAutomationBS"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/gaurav_purwar/Documents/Vrize/MobileAutomationBS"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="22.0.2"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/gc/gjr72wkn1xq3f2ch9d7krx2r0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.9.8/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/gaurav_purwar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.9.8/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="66.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="platformName" value="ios"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="14.6.1"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.9.8/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/gaurav_purwar"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="22"/>
+    <property name="user.name" value="gaurav_purwar"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.9.8/libexec/boot/plexus-classworlds-2.8.0.jar"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DplatformName=ios"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.9.8/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+  </properties>
+  <testcase name="loginJourneyWithDifferentCredentials" classname="mobile.Tests.LoginTests" time="29.698">
+    <failure message="Test Failed: Error: Invalid Header! An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.6.1&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Command: [27bfdaaa-d37f-4688-aefb-9f8e445fd9ff, findElement {using=xpath, value=//*[contains(text(),&apos;Sign up or log in&apos;)]}]&#10;Capabilities {appium:app: /Users/gaurav_purwar/Docume..., appium:autoAcceptAlerts: true, appium:autoGrantPermissions: true, appium:automationName: XCuiTest, appium:commandTimeouts: {default: 12000}, appium:databaseEnabled: false, appium:deviceName: Gaurav iPhone, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:platformVersion: 18.0, appium:takesScreenshot: true, appium:udid: 00008101-000144661EF0001E, appium:wdaLaunchTimeout: 50000, appium:webStorageEnabled: false, appium:xcodeOrgId: purwar389@gmail.com, appium:xcodeSigningId: iPhone Developer, platformName: IOS}&#10;Session ID: 27bfdaaa-d37f-4688-aefb-9f8e445fd9ff" type="java.lang.AssertionError">java.lang.AssertionError: 
+Test Failed: Error: Invalid Header! An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6.1', java.version: '22.0.2'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [27bfdaaa-d37f-4688-aefb-9f8e445fd9ff, findElement {using=xpath, value=//*[contains(text(),'Sign up or log in')]}]
+Capabilities {appium:app: /Users/gaurav_purwar/Docume..., appium:autoAcceptAlerts: true, appium:autoGrantPermissions: true, appium:automationName: XCuiTest, appium:commandTimeouts: {default: 12000}, appium:databaseEnabled: false, appium:deviceName: Gaurav iPhone, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:platformVersion: 18.0, appium:takesScreenshot: true, appium:udid: 00008101-000144661EF0001E, appium:wdaLaunchTimeout: 50000, appium:webStorageEnabled: false, appium:xcodeOrgId: purwar389@gmail.com, appium:xcodeSigningId: iPhone Developer, platformName: IOS}
+Session ID: 27bfdaaa-d37f-4688-aefb-9f8e445fd9ff
+	at mobile.Tests.LoginTests.loginJourneyWithDifferentCredentials(LoginTests.java:65)
+</failure>
+    <system-out><![CDATA[Launched successfully!
+Driver is set!
+iOS driver is set
+Sign up or log in  Button button is clicked!
+Email Address Field is entered with value gaurav@vrize.com
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

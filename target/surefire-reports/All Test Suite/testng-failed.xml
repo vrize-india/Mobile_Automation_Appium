@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="platformName" value="android"/>
+  <test thread-count="5" name="/Users/gauravpurwar/Documents/Vrize/MobileAutomationBS(failed)" verbose="0">
+    <classes>
+      <class name="mobile.Tests.LoginTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Setup"/>
+          <include name="loginJourneyWithDifferentCredentials" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- mobile.Tests.LoginTests -->
+    </classes>
+  </test> <!-- /Users/gauravpurwar/Documents/Vrize/MobileAutomationBS(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

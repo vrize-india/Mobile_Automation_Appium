@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="platformName" value="android"/>
+    <test verbose="1" preserve-order="true" name="/Users/gauravpurwar/Documents/Vrize/MobileAutomationBS">
+        <classes>
+            <class name="mobile.Tests.LoginTests">
+            </class>
+        </classes>
+    </test>
+</suite>
