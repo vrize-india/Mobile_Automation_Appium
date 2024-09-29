@@ -32,50 +32,6 @@ OR
 
 `mvn clean test -DplatformName=android`
 
-## Functional Test Cases Automated in this framework
-
-Applications  - LiSTNR apps available in AppStore & PlayStore - Android & mobile
-
-**Test cases
-Test case 1-3: loginJourneyWithDifferentCredentials 
-Test Data: [uses 3 data based credentials from dataProvide]
-1.	Launch the App and Continue
-2.	Enter Email 
-3.  Enter Password
-4.  Go to Account Details Page
-5.  Validate the Email 
-6.  Log Outsubmit button
-
-Results: Passed, Failed, Failed
-
-Test case 4: loginWithValidCredentials 
-Data: {hardcoded email id and password data}
-1.	Launch the App and Continue
-2.	Enter Email 
-3.  Enter Password
-4.  Go to Account Details Page
-5.  Validate the Email 
-6.  Log Outsubmit button
-
-Result: Passed
-
-Test case 5: loginWithInvalidEmail
-Data: {hardcoded invalid email id and password data}
-1.	Launch the App and Continue
-2.	Enter Email 
-3.  Validate the expected email error alert message
-
-Result: Passed
-
-Test case 6: loginWithInvalidPassword
-Data: {hardcoded valid email id and invalid password data}
-1.	Launch the App and Continue
-2.	Enter Email 
-3.  Enter Password
-4.  Validate the expected password error alert message
-
-Result: Passed
-
 
 ## Framework Requirements
 * Java Development Kit
@@ -93,24 +49,21 @@ Result: Passed
 ## Automation Framework Structure
 
 ```
-LiSTNRProject
+MobileAutomationProject
 	src.main.java
 		Driver
       		Factory
       		Utilities	
 	src.test.java
-		Android
-			TestDefinitions.java
-			Tests.java
 		mobile
 			TestDefinitions.java
 			Tests.java
 	src.test.resources
-		LiSTNR.apk
+		    LiSTNR.apk
     		LiSTNR.ipa
-	mobile.properties
-  	android.properties
-  	project.properties
+        ios.properties
+        android.properties
+        project.properties
 	allure-results
 	test-output
 		testNG Reports
