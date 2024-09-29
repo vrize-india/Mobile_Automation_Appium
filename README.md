@@ -94,7 +94,7 @@ Feature File: All 12 Test Cases:
 ![Screen Shot 2022-08-05 at 5 44 35 am](https://user-images.githubusercontent.com/8833241/182939269-bb4b1a71-9d01-4f16-9be5-6a8e9afff566.png)
 
 
-**Run time Allur report:**
+**Run time Allure report:**
 Screen references for localhost and allure report generation
 Sample Allure report with pass fail stats:
 ![Screen Shot 2022-08-04 at 4 40 03 pm](https://user-images.githubusercontent.com/8833241/182939718-a5ec8c66-e25a-47ad-883e-dc72d325ec43.png)
@@ -105,54 +105,47 @@ Sample Allure report with pass fail stats:
 cd directory
 allure serve allure-results
 
-Project Folder Structure Screen:
-
-![Screenshot 2024-09-29 at 10.25.46 PM.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fgc%2Fgjr72wkn1xq3f2ch9d7krx2r0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_aYPwzI%2FScreenshot%202024-09-29%20at%2010.25.46%E2%80%AFPM.png)
-
-
 **TestNG Reports:**
 http://localhost:63342/ListnrProject/test-output/emailable-report.html?_ijt=galphhcmsf0s9gnga0qhf9cgpm&_ij_reload=RELOAD_ON_SAVE
 
 ![Screen Shot 2022-08-04 at 4 37 54 pm](https://user-images.githubusercontent.com/8833241/182939963-07067ae7-0ae4-4ba5-8c97-0c59479eda11.png)
 
 
-
-{
+`{
 "platformName": "ios",
 "appium:udid": "00008101-000144661EF0001E",
-"appium:platformVersion": "17.5",
-"appium:xcodeOrgId": "purwar389@gmail.com",
+"appium:platformVersion": "18.0",
+"appium:xcodeOrgId": "gaurav@vrize.com",
 "appium:xcodeSigningId": "iPhone Developer",
 "appium:autoAcceptAlerts": true,
-"appium:deviceName": "Gaurav iPhone (17.5.1)",
+"appium:deviceName": "Gaurav iPhone",
 "appium:automationName": "XCuiTest",
-"appium:app": "/Users/gaurav_purwar/Documents/Vrize/MobileAutomationBS/src/test/resources/apps/LiSTNR.ipa",
+"appium:app": "LiSTNR.ipa",
 "appium:wdaLaunchTimeout": 50000,
 "appium:autoGrantPermissions": true
-}
+}`
 
-{
+
+`{
 "platformName": "Android",
 "appium:deviceName": "emulator-5554",
-"appium:app": "/Users/gaurav_purwar/Documents/Vrize/MobileAutomationBS/src/test/resources/apps/LiSTNR.apk",
+"appium:app": "LiSTNR.apk",
 "appium:ensureWebviewsHavePages": true,
 "appium:nativeWebScreenshot": true,
 "appium:newCommandTimeout": 3600,
 "appium:automationName": "UiAutomator2",
 "appium:connectHardwareKeyboard": true,
-"appium:appPackage": "au.com.podcastoneaustralia",
-"appium:appActivity": "au.com.podcastoneaustralia.ui.splash.SplashActivity",
 "appium:uiautomator2ServerLaunchTimeout": 60000
-}
+}`
 
 
-{
+`{
 "platformName": "Android",
 "appium:deviceName": "emulator-5554",
 "browserName": "Chrome",
 "appium:automationName": "UiAutomator2",
 "appium:chromedriverExecutable": "/Users/gauravpurwar/Documents/GEP-Automation-Suite-Mobile/src/test/resources/executables/chromedriver"
-}
+}`
 
 
 
