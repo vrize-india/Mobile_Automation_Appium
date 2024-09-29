@@ -2,17 +2,12 @@ package mobile.TestDefinitions;
 
 import base.AppDriver;
 import base.Utils;
-import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.PageFactory;
 
 public class LoginFlow {
 
     private String platformName;
-
     Utils u = new Utils();
-
-    // Locators
     private By continueBtn;
     private By email;
     private By loginOrSignupHeader;
@@ -23,9 +18,11 @@ public class LoginFlow {
     private By accountDetails;
     private By backToProfile;
     private By logout;
-//    public LoginFlow(){
-//        PageFactory.initElements(new AppiumFieldDecorator(AppDriver.getDriver()), this);
-//    }
+/*    public LoginFlow(){
+        PageFactory.initElements(new AppiumFieldDecorator(AppDriver.getDriver()), this);
+    }
+
+ */
 
     public LoginFlow(String platformName){
         this.platformName = platformName;
@@ -36,7 +33,6 @@ public class LoginFlow {
         return platformName;
     }
 
-    // Initialize locators based on platform
     private void initLocators() {
         if ("iOS".equalsIgnoreCase(platformName)) {
             email = By.xpath("//*[contains(@label, \"What's your email\") or contains(@name, \"What's your email\")]");

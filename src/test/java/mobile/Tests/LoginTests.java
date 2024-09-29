@@ -67,60 +67,6 @@ public class LoginTests {
     }
 
 
-
-//    /**
-//     * The test is to verify the login Journey with valid email address and password
-//     * @throws Exception
-//     */
-//    @Test(enabled = false, priority = 3)
-//    public void loginWithValidCredentials() throws Exception {
-//
-//      try{
-//          String emailVal = "purwar389@gmail.com";
-//        String password = "test123";
-//
-//        String actualEmail = lf.loginToLogout(emailVal,password);
-//        Assert.assertEquals(actualEmail, emailVal, "Email Address didn't match!");
-//        System.out.println("Test Passed!");
-//    } catch (Exception e) {
-//        Assert.fail("Test Failed : Error : Invalid Credentials! "+e.getMessage());
-//    }
-//
-//    }
-//
-//    /**
-//     * The test is to verify the valid error for incorrect email address
-//     * @throws Exception
-//     */
-//    @Test (enabled = false, priority = 3)
-//    public void loginWithInvalidEmail() throws InterruptedException {
-//
-//        String emailVal = "invalid";
-//
-//        String errMsg = lf.enterInvalidEmailDuringLogin(emailVal);
-//        Assert.assertEquals(errMsg, "Please enter a valid email address", "Error Message didn't match!");
-//        System.out.println("Test Passed!");
-//
-//    }
-//
-//    /**
-//     * The test is to verify the valid error for incorrect password
-//     * @throws Exception
-//     */
-//    @Test (enabled = false, priority = 4)
-//    public void loginWithInvalidPassword() throws InterruptedException {
-//
-//        String emailVal = "purwar389@gmail.com";
-//        String passwordVal = "Invalid";
-//
-//
-//        String errMsg = lf.enterInvalidPasswordDuringLogin(emailVal,passwordVal);
-//        Assert.assertEquals(errMsg, "Your password is invalid or the email address does not have an account. Please try again", "Error Message didn't match!");
-//        System.out.println("Test Passed!");
-//
-//    }
-
-
     @AfterMethod
     public void tearDown(){
         AppFactory.closeApp();
