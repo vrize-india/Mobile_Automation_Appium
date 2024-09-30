@@ -33,6 +33,8 @@ OR
 
 `mvn clean test -DplatformName=android`
 
+`mvn clean test -DplatformName=ios`
+
 
 ## Framework Requirements
 * Java Development Kit
